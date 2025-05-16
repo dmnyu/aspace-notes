@@ -1,0 +1,4 @@
+<your env>:
+  url: <your api url>
+  username: <your username>
+  password: <your password>
