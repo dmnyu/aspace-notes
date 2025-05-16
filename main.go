@@ -23,7 +23,7 @@ func init() {
 }
 
 func main() {
-
+	fmt.Println("aspace-notes, v0.1.0")
 	//parse flags
 	flag.Parse()
 
