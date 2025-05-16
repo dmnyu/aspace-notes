@@ -16,6 +16,7 @@ var (
 	repoID     int
 	helpmsg    bool
 	outputFile string
+	version    = "v0.1.0"
 )
 
 func init() {
@@ -38,7 +39,7 @@ func help() {
 }
 
 func main() {
-	fmt.Println("aspace-notes, v0.1.0")
+	fmt.Printf("aspace-notes, %v", version)
 	//parse flags
 	flag.Parse()
 
